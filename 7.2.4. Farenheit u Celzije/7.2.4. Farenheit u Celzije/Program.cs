@@ -16,10 +16,20 @@ namespace _7._2._4.Farenheit_u_Celzije
             Console.WriteLine("{0} F = {1} C", Farenheit FtoC(Farenheit));
             Console.ReadKey();
         }
-        static double FtoC(double Farenheit);
-        {
-          return(double) 5/9* (Farenheit-32);
-        }
+            static double FtoC(double Farenheit);
+            {
+
+             return (double)5 / 9 * (Farenheit - 32);
+            // ili  F-32/1.8000
+
+            }
+        
+
+
+
+
+          
+        
         
 
     }
